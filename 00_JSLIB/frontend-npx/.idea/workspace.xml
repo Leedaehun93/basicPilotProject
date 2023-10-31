@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="897b58e8-61c7-4efb-b745-fc37f2eb8af0" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/public/lib/counterup/counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/waypoints/links.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/waypoints/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/EasingCom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/Isotope.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/OwlCarouselCom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/my-parallax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/parallax-com.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/cloud2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/cloud3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/cloud4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/dining_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/dining_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/dining_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/dining_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/full/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/full/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/full/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/full/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/full/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/full/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/thumb/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/thumb/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/thumb/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/thumb/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/thumb/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/gallery/thumb/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/parallax/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/project/project-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/project/project-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/project/project-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/project/project-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/project/project-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/project/project-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/testimonial/testimonial-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/testimonial/testimonial-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/testimonial/testimonial-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/HeaderCom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BootstrapIcons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CountUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2XWUxllKJH4pHDsJeV5Abh5pMHM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="897b58e8-61c7-4efb-b745-fc37f2eb8af0" name="변경" comment="" />
+      <created>1698744581056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698744581056</updated>
+      <workItem from="1698744584031" duration="12000" />
+    </task>
+    <servers />
+  </component>
+</project>

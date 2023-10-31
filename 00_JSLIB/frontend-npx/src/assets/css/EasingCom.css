@@ -1,0 +1,17 @@
+﻿/* C:\Work\08_Pilot_Project\01_Blog\00_JSLIB\frontend-npx\src\assets\css\EasingCom.css */
+
+#boxing {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+  }
+  #box {
+    height: 100px;
+    width: 100px;
+    background: #000;
+    margin: 0 auto;
+  }
