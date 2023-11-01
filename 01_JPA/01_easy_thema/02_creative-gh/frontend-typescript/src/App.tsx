@@ -5,7 +5,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import NotFound from "./components/NotFound";
+import NotFound from ".//components/common/NotFound";
 
 
 

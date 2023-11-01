@@ -1,15 +1,49 @@
 // C:\Work\08_Pilot_Project\01_Blog\01_JPA\01_easy_thema\01_stylish-portfolio\frontend-typescript\src\pages\Home.tsx : rfce
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import initMain from "../assets/js/scripts";
 
 // styles.css import : react 의 최고 부모 컴포넌트 (App.tsx)
 import "../assets/css/styles.css";
+import DeptList from "./basic/dept/DeptList";
+import AddDept from "./basic/dept/AddDept";
+import CustomerList from "./basic/customer/CustomerList";
+import AddCustomer from "./basic/customer/AddCustomer";
+import Dept from "./basic/dept/Dept";
 
 export default function Home() {
+  // TODO: 바인딩 변수
+  // 화면명을 저장 할 변수
+  const [viewName, setViewName] = useState<string>("");
+  // TODO : 기본키를 저장 할 변수
+  const [pid, setPid] = useState<number>(0);
   // 화면이 뜰 때 실행되는 이벤트
   useEffect(() => {
     initMain(); // 사이트 메뉴 실행}
   }, []);
+
+  // TODO : 함수 정의
+  // 버튼 메뉴에 따라 다른 화면 보여주기 함수 : 클릭 이벤트 함수
+  const handleChange = (viewName: string, pid = 0) => {
+    setViewName(viewName); // 클릭하면 viewName 변수에 저장(화면에 저장)
+    setPid(pid); // 기본키 저장
+  };
+
+  // 화면 바꿔 보여주기 함수
+  const changeView = () => {
+    if (viewName === "deptList") {
+    // props : 자식쪽으로 함수(handleChange) 전달
+      return <DeptList handleChange={handleChange} />;
+    } else if (viewName === "addDept") {
+      return <AddDept />;
+    } else if(viewName === "dept") {
+      // props : 자식쪽으로 변수(dno) 전달
+      return <Dept dno={pid} />
+    } else if (viewName === "customerList") {
+      return <CustomerList />;
+    } else if (viewName === "addCustomer") {
+      return <AddCustomer />;
+    }
+  };
 
   return (
     // TODO: HTML
@@ -43,9 +77,9 @@ export default function Home() {
       {/* <!-- Header--> */}
       <header className="masthead d-flex align-items-center">
         <div className="container px-4 px-lg-5 text-center">
-          <h1 className="mb-1">Stylish Portfolio</h1>
+          <h1 className="mb-1">Simple Coding</h1>
           <h3 className="mb-5">
-            <em>A Free Bootstrap Theme by Start Bootstrap</em>
+            <em>안녕하세요 저의 블로거에 오신것을 환영합니다.</em>
           </h3>
           <a className="btn btn-primary btn-xl" href="#about">
             Find Out More
@@ -144,22 +178,39 @@ export default function Home() {
           </a>
         </div>
       </section>
-      {/* <!-- Portfolio--> */}
+
+      {/* <!-- Portfolio : 부서/고객 메뉴 -->
+       */}
       <section className="content-section" id="portfolio">
         <div className="container px-4 px-lg-5">
           <div className="content-section-heading text-center">
             <h3 className="text-secondary mb-0">Portfolio</h3>
             <h2 className="mb-5">Recent Projects</h2>
           </div>
+          {/* 부서 시작 */}
           <div className="row gx-0">
             <div className="col-lg-6">
               <a className="portfolio-item" href="#!">
                 <div className="caption">
                   <div className="caption-content">
-                    <div className="h2">Stationary</div>
+                    <div className="h2">Department 예제</div>
                     <p className="mb-0">
-                      A yellow pencil with envelopes on a clean, blue backdrop!
+                      부서게시판을 만들면서 <br />
+                      React & Springboot & Oracle 연동하기
                     </p>
+                    <span
+                      className="badge text-bg-success"
+                      onClick={() => handleChange("deptList")}
+                    >
+                      Department 조회
+                    </span>
+
+                    <span
+                      className="badge text-bg-danger"
+                      onClick={() => handleChange("addDept")}
+                    >
+                      Department 추가
+                    </span>
                   </div>
                 </div>
                 <img
@@ -169,15 +220,33 @@ export default function Home() {
                 />
               </a>
             </div>
+            {/* 부서 끝 */}
+
+            {/* 고객 시작 */}
             <div className="col-lg-6">
               <a className="portfolio-item" href="#!">
                 <div className="caption">
                   <div className="caption-content">
-                    <div className="h2">Ice Cream</div>
+                    <div className="h2">Customer 예제</div>
                     <p className="mb-0">
-                      A dark blue background with a colored pencil, a clip, and
-                      a tiny ice cream cone!
+                      Customer 게시판을 만들면서 <br />
+                      React & Springboot & Oracle 연동 예제 2
                     </p>
+                    {/* 버튼 메뉴 시작 */}
+                    <span
+                      className="badge text-bg-warning"
+                      onClick={() => handleChange("customerList")}
+                    >
+                      Customer 조회
+                    </span>
+
+                    <span
+                      className="badge text-bg-info"
+                      onClick={() => handleChange("addCustomer")}
+                    >
+                      Customer 추가
+                    </span>
+                    {/* 버튼 메뉴 끝 */}
                   </div>
                 </div>
                 <img
@@ -187,6 +256,8 @@ export default function Home() {
                 />
               </a>
             </div>
+            {/* 고객 끝 */}
+
             <div className="col-lg-6">
               <a className="portfolio-item" href="#!">
                 <div className="caption">
@@ -226,6 +297,25 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* TODO: 여기 */}
+      {/* <!-- Portfolio - result : 부서/고객 결과 --> */}
+      <section className="content-section" id="portfolio">
+        <div className="container px-4 px-lg-5">
+          {/* 제목 시작 */}
+          <div className="content-section-heading text-center">
+            <h3 className="text-secondary mb-0">맛보기 샘플 - 결과</h3>
+            <h2 className="mb-5">Recent Result</h2>
+          </div>
+          {/* 제목 끝 */}
+          {/* 게시판 결과 시작 */}
+          <div className="row gx-0">
+            <div className="col-lg-12">{changeView()}</div>
+          </div>
+          {/* 게시판 결과 끝 */}
+        </div>
+      </section>
+
       {/* <!-- Call to Action--> */}
       <section className="content-section bg-primary text-white">
         <div className="container px-4 px-lg-5 text-center">
@@ -240,6 +330,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+
       {/* <!-- Map--> */}
       <div className="map" id="contact">
         <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
